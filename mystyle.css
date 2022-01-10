@@ -27,3 +27,30 @@ body {
   top:-0.14em;
   left:10px;
 }
+.container {
+    margin-top: 50px;
+    display: block;
+    height: auto;
+    width: auto;
+    overflow: scroll;
+    border: auto solid #fff8f8
+
+}
+* { margin: 0 auto; }
+
+.content {
+    height: 1000px;
+    min-width: 1000px;
+    padding: 1px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: white;
+  }
+
+
