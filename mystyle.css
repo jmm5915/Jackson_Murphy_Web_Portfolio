@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 body {
-  background: rgb(20, 20, 20);
+  background: rgb(24, 23, 23);
 }
 .hidden {
   opacity:0;
@@ -63,11 +63,31 @@ Content of website
     border-radius: auto;
     background: rgb(194, 62, 62);
   }
-  .fade {
+  .fade1 {
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+  }
+
+  .fade2 {
     margin: 50px;
     padding: 50px;
     background-color: lightgreen;
     opacity: 1;
   }
 
+  .fade3 {
+    margin: 50px;
+    padding: 50px;
+    background-color: lightgreen;
+    opacity: 1;
+  }
+
+  .fade4 {
+    margin: 50px;
+    padding: 50px;
+    background-color: lightgreen;
+    opacity: 1;
+  }
 
