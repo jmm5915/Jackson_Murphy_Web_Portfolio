@@ -5,6 +5,26 @@ body {
 .hidden {
   opacity:0;
 }
+/*
+Content of website
+*/
+.projects {
+  font-family:Khula;
+  font-size:2.5em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:37%;
+  bottom:70%;
+  left:0;
+  right:0;
+  margin:auto;
+
+
+}
 .console-container {
  
   font-family:Khula;
@@ -22,7 +42,7 @@ body {
   margin:auto;
 }
 .console-underscore {
-   display:inline-block;
+  display:inline-block;
   position:relative;
   top:auto;
   left:auto;
@@ -35,13 +55,13 @@ body {
     padding: 1px;
 }
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: auto;
+    height: auto;
 
   }
   ::-webkit-scrollbar-thumb {
     border-radius: auto;
-    background: white;
+    background: rgb(194, 62, 62);
   }
 
 
