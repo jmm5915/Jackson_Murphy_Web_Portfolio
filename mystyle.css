@@ -63,5 +63,11 @@ Content of website
     border-radius: auto;
     background: rgb(194, 62, 62);
   }
+  .fade {
+    margin: 50px;
+    padding: 50px;
+    background-color: lightgreen;
+    opacity: 1;
+  }
 
 
