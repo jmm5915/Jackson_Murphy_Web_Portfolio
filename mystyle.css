@@ -63,17 +63,44 @@ Content of website
     border-radius: auto;
     background: rgb(194, 62, 62);
   }
-  .fade1 {
-    margin: 50px;
-    padding: 50px;
-    background-color: rgb(255, 255, 255);
-    opacity: 1;
-    position: relative;
+  /*
+.hideme {
+  color: white;
+  margin: auto;
+  position: absolute;
+  bottom: 300px;
+  opacity: 0;
+}
+.hideme2 {
+  color: white;
+  margin: auto;
+  position: absolute;
+  bottom: -1000px;
+}
+*/
+#container
+{
+    font-family:Khula;
+    font-size:2.1em;
+    text-align:center;
+    height:2000px;  
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right:0;
     display: block;
-    top:-700px;
-    bottom:0%;
-    width: 500px;
-    text-align: center;
-    align-content: center;
 
-  }
+}
+
+#container DIV
+{ 
+    margin:50px; 
+    padding:50px; 
+    background-color:rgb(3, 247, 247); 
+}
+
+.hideme
+{
+    opacity:0;
+}
